@@ -1,0 +1,54 @@
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.app-background {
+  background-image: url('https://tse4.mm.bing.net/th?id=OIP.HCDvqjKa8gWYbbTyyqyE6QHaHa&pid=Api&P=0&h=220');
+  background-size: cover; 
+  background-position: center; 
+  height: 100vh;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.slider-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  animation: slide 20s infinite;
+}
+
+
+
+@keyframes slide {
+  0% { opacity: 1; }
+  25% { opacity: 1; }
+  30% { opacity: 0; }
+  100% { opacity: 0; }
+}

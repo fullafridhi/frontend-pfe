@@ -1,0 +1,54 @@
+/* addVideo.css */
+
+.add-video {
+  max-width: 400px; /* Limit the width of the form */
+  margin: 20px auto; /* Center the form */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgb(0, 0, 0); /* Soft shadow */
+  background-color: #f9f9f9; /* Light gray background */
+}
+
+.add-video h2 {
+  text-align: center;
+  color: #333; /* Dark text color */
+  margin-bottom: 20px;
+}
+
+.add-video form {
+  display: flex;
+  flex-direction: column; /* Stack the form fields */
+}
+
+.add-video label {
+  margin-bottom: 10px; /* Spacing between labels */
+  font-weight: bold;
+}
+
+.add-video input {
+  width: 100%; /* Full width inputs */
+  padding: 10px; /* Padding inside inputs */
+  border: 1px solid #ccc; /* Border for inputs */
+  border-radius: 4px; /* Rounded corners */
+  margin-bottom: 15px; /* Spacing below inputs */
+}
+
+.add-video input:focus {
+  border-color: #007bff; /* Border color on focus */
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Shadow on focus */
+}
+
+.add-video button {
+  background-color: #007bff; /* Button color */
+  color: white;
+  border: none;
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px;
+  cursor: pointer;
+  width: 100%; /* Full width button */
+  transition: background-color 0.3s ease;
+}
+
+.add-video button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}

@@ -1,0 +1,101 @@
+/* verify.css */
+
+/* .container {
+  background-color: rgba(249, 245, 245, 0.939); 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+} */
+
+.verification-box {
+  background-color: #4e4a4a4f; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+  padding: 30px;
+  width: 100%;
+  max-width: 400px; 
+  text-align: center; 
+}
+
+.title {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 4px;
+  border: 1px solid #4d4e4f00;
+  background-color: #f8f9fa; 
+}
+
+.input:focus {
+  border-color: #007bff; 
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.352); 
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 300px; 
+  margin: 0 auto; 
+}
+
+.btn {
+  background-color: #007bff; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn-resend {
+  background-color: #28a745; 
+}
+
+.btn-resend:hover {
+  background-color: #218838; 
+}
+
+.spinner {
+  background-color: transparent;
+  border: none;
+  cursor: default;
+}
+
+
+@media (max-width: 576px) {
+  .verification-box {
+    padding: 20px;
+    width: 90%; 
+  }
+
+  .input {
+    width: 30px; 
+    height: 30px;
+  }
+
+  .btn {
+    padding: 8px;
+  }
+}
