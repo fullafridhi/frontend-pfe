@@ -9,7 +9,7 @@ import { Provider } from "react-redux";
 import axios from "axios";
 import { PersistGate } from 'redux-persist/integration/react';
 import { store,persistor } from './redux/store';
-axios.defaults.baseURL = "http://localhost:5001/api";
+axios.defaults.baseURL = "https://backend-pfe-gkl9.onrender.com/api";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider store={store}>
